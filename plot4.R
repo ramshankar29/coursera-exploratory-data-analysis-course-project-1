@@ -11,7 +11,6 @@ subMetering1 <- as.numeric(subSetData$Sub_metering_1)
 subMetering2 <- as.numeric(subSetData$Sub_metering_2)
 subMetering3 <- as.numeric(subSetData$Sub_metering_3)
 
-
 png("plot4.png", width=480, height=480)
 par(mfrow = c(2, 2)) 
 
